@@ -1,0 +1,7 @@
+{
+  "name": "objectUtils",
+  "jspm": {
+  	"format": "es6",
+  	"registry": "jspm"
+  }
+}
