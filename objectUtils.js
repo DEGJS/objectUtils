@@ -12,6 +12,16 @@ let objectUtils = {
 		} else {
 			return out;
 		}
+	},
+
+	normalizeValue: function(val) {
+		if (typeof val !== 'undefined') {
+			val = this.convertToArray(val);
+			val.forEach(function(item, i) {
+				val[i] = item.trim().toLowerCase();
+			});
+			return val;
+		}
 	}
 
 };
