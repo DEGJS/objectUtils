@@ -1,7 +1,28 @@
 {
-  "name": "objectUtils",
-  "jspm": {
-  	"format": "es6",
-  	"registry": "jspm"
-  }
+    "name": "objectUtils",
+    "version": "1.0.0",
+    "description": "A utility library for working with JavaScript objects.",
+    "keywords": [
+    	"objects",
+        "DEGJS"
+    ],
+    "author": {
+        "name": "Aaron Ladage",
+        "email": "aladage@degdigital.com",
+        "url": "http://aaronladage.com"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DEGJS/objectUtils.git"
+    },
+    "bugs": "https://github.com/DEGJS/objectUtils/issues",
+    "jspm": {
+        "registry": "jspm",
+        "format": "es6",
+        "main": "objectUtils.js",
+        "directories": {
+            "lib": "src"
+        }
+    }
 }
