@@ -1,22 +1,10 @@
 # objectUtils
 A utility library for working with JavaScript objects.
 
-## Available Methods
-* **extend:** Extend one object with another object.
-* **convertToArray:** Convert an object to an array.
-* **normalizeStrValue:** Lowercase and trim string or array values. Strings are automatically converted to arrays.
-
-## Revision History
-* **1.0.0:** First commit.
-
-
-# objectUtils
-A utility library for working with JavaScript objects.
-
 ## Install
 objectUtils is an ES6 module. Consequently, you'll need an ES6 transpiler ([Babel](https://babeljs.io) is a nice one) and a module loader ([SystemJS](https://github.com/systemjs/systemjs) will do the job) as part of your Javascript workflow.
 
-If you're already using the [JSPM package manager](http://jspm.io) for your project, you can install domUtils with the following command:
+If you're already using the [JSPM package manager](http://jspm.io) for your project, you can install objectUtils with the following command:
 
 ```
 $ jspm install github:DEGJS/objectUtils
