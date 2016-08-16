@@ -14,14 +14,14 @@ $ jspm install github:DEGJS/objectUtils
 
 ### Importing individual objectUtils methods:
 ```js
-import { ensureArray } from "DEGS/objectUtils";
+import { ensureArray } from "DEGJS/objectUtils";
 
 let guaranteedArray = ensureArray(possibleArray);
 ```
 
 ### Importing all objectUtils methods:
 ```js
-import * as objectUtils from "DEGS/objectUtils";
+import * as objectUtils from "DEGJS/objectUtils";
 
 let guaranteedArray = objectUtils.ensureArray(possibleArray);
 ```
