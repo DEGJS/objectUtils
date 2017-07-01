@@ -35,6 +35,17 @@ The ensureArray method returns a guaranteed array, regardless of the paramater p
 Type: `Array` or `String`  
 The potential array to test.
 
+### assignDeep(target, source)
+The assignDeep method copies the values of a source object to a target object. Unlike [Object.assign](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign), assignDeep does a proper deep clone of nested objects.
+
+#### target
+Type: `Object`  
+The source object to copy.
+
+#### source
+Type: `Object`  
+The target object to copy to.
+
 
 ## Browser Support
 

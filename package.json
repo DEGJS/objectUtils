@@ -1,6 +1,6 @@
 {
     "name": "objectUtils",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "A utility library for working with JavaScript objects.",
     "keywords": [
     	"objects",
