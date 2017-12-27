@@ -11,6 +11,9 @@
         "email": "aladage@degdigital.com",
         "url": "http://aaronladage.com"
     },
+    "scripts": {
+        "test": "jest ."
+    },
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -26,6 +29,12 @@
         }
     },
     "devDependencies": {
+        "babel-env": "^2.4.1",
+        "babel-jest": "^22.0.4",
+        "expect": "^22.0.3",
         "jest": "^22.0.4"
+    },
+    "dependencies": {
+        "isobject": "^3.0.1"
     }
 }

@@ -1,11 +1,13 @@
-function ensureArray(obj) {
+import isObject from 'isobject';
+
+export function ensureArray(obj) {
     if(Array.isArray(obj) === false) {
         return [obj];
     }
     return obj;
 }
 
-function assignDeep(target, source) {
+export function assignDeep(target, source) {
     let output = Object.assign({}, target);
     if (isObject(target) && isObject(source)) {
       Object.keys(source).forEach(key => {
@@ -21,8 +23,3 @@ function assignDeep(target, source) {
     }
     return output;
 }
-
-export { 
-	ensureArray,
-	assignDeep
-};
