@@ -12,7 +12,8 @@
         "url": "http://aaronladage.com"
     },
     "scripts": {
-        "test": "jest ."
+        "test": "jest .",
+        "lint": "eslint ./src"
     },
     "license": "MIT",
     "repository": {
@@ -31,6 +32,7 @@
     "devDependencies": {
         "babel-env": "^2.4.1",
         "babel-jest": "^22.0.4",
+        "eslint": "^4.14.0",
         "expect": "^22.0.3",
         "jest": "^22.0.4"
     },
