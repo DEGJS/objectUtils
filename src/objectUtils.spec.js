@@ -1,5 +1,5 @@
 import expect from 'expect';
-import { ensureArray, alphabetizeKeys } from './objectUtils';
+import {ensureArray, alphabetizeKeys} from './objectUtils';
 
 describe('ensureArray', () => {
 	it('should put object in array', () => {
@@ -19,7 +19,7 @@ describe('ensureArray', () => {
 
 // describe('alphabetizeKeys', () => {
 // 	it('should alphabetize keys', () => {
-// 		const original = { 
+// 		const original = {
 // 			name: 'joe',
 // 			age: 35
 // 		}
@@ -29,9 +29,9 @@ describe('ensureArray', () => {
 // 		}
 // 		expect(alphabetizeKeys(original)).toEqual(expected);
 // 	})
-// 
+//
 // 	it('should remove blacklist', () => {
-// 		const original = { 
+// 		const original = {
 // 			name: 'joe',
 // 			ugliness: 'high',
 // 			age: 35
