@@ -26,14 +26,9 @@ export function assignDeep(target, source) {
 }
 
 function alphabetizeKeys(target, blacklist = []) {
-	const usableKeys = [];
 	const keys = Object.keys(target);
-	for (let i = 0; i < keys.length; i++) {
-		if (blacklist.indexOf(keys[i]) > -1) {
-			continue;
-		}
-		usableKeys.push(keys[i]);
-	}
+	
+	const usableKeys = keys.filter(key => !blacklist.includes(key));
 	usableKeys.sort();
 	const updated = {};
 	for (let i = 0; i < usableKeys.length; i++) {
