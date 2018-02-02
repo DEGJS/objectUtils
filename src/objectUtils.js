@@ -28,7 +28,7 @@ export function assignDeep(target, source) {
 function alphabetizeKeys(target, blacklist = []) {
 	const usableKeys = [];
 	const keys = Object.keys(target);
-	for (var i = 0; i < keys.length; i++) {
+	for (let i = 0; i < keys.length; i++) {
 		if (blacklist.indexOf(keys[i]) > -1) {
 			continue;
 		}
@@ -36,7 +36,7 @@ function alphabetizeKeys(target, blacklist = []) {
 	}
 	usableKeys.sort();
 	const updated = {};
-	for (var i = 0; i < usableKeys.length; i++) {
+	for (let i = 0; i < usableKeys.length; i++) {
 		updated[usableKeys[i]] = target[usableKeys[i]];
 	}
 	return updated;
