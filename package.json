@@ -1,6 +1,6 @@
 {
-    "name": "objectUtils",
-    "version": "2.1.0",
+    "name": "@degjs/object-utils",
+    "version": "3.0.0",
     "description": "A utility library for working with JavaScript objects.",
     "keywords": [
         "objects",
@@ -20,15 +20,11 @@
         "type": "git",
         "url": "https://github.com/DEGJS/objectUtils.git"
     },
+    "files": [
+        "src"
+    ],
+    "main": "src/objectUtils.js",
     "bugs": "https://github.com/DEGJS/objectUtils/issues",
-    "jspm": {
-        "registry": "jspm",
-        "format": "es6",
-        "main": "objectUtils.js",
-        "directories": {
-            "lib": "src"
-        }
-    },
     "devDependencies": {
         "babel-env": "^2.4.1",
         "babel-jest": "^22.0.4",
