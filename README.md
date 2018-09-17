@@ -2,26 +2,28 @@
 A utility library for working with JavaScript objects.
 
 ## Install
-objectUtils is an ES6 module. Consequently, you'll need an ES6 transpiler ([Babel](https://babeljs.io) is a nice one) and a module loader ([SystemJS](https://github.com/systemjs/systemjs) will do the job) as part of your Javascript workflow.
+[![Build Status](https://travis-ci.org/DEGJS/objectUtils.svg?branch=master)](https://travis-ci.org/DEGJS/objectUtils)
 
-If you're already using the [JSPM package manager](http://jspm.io) for your project, you can install objectUtils with the following command:
+objectUtils is an ES6 module. Consequently, you'll need an ES6 transpiler ([Babel](https://babeljs.io) is a nice one) as part of your Javascript workflow.
+
+If you're already using NPM for your project, you can install objectUtils with the following command:
 
 ```
-$ jspm install github:DEGJS/objectUtils
+$ npm install @degjs/object-utils
 ```
 
 ## Usage
 
 ### Importing individual objectUtils methods:
 ```js
-import { ensureArray } from "DEGJS/objectUtils";
+import { ensureArray } from "@degjs/object-utils";
 
 let guaranteedArray = ensureArray(possibleArray);
 ```
 
 ### Importing all objectUtils methods:
 ```js
-import * as objectUtils from "DEGJS/objectUtils";
+import * as objectUtils from "@degjs/object-utils";
 
 let guaranteedArray = objectUtils.ensureArray(possibleArray);
 ```
