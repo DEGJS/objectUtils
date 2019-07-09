@@ -24,3 +24,17 @@ export function assignDeep(target, source) {
 	}
 	return output;
 }
+
+function alphabetizeKeys(target, blacklist = []) {
+	const keys = Object.keys(target);
+	
+	const usableKeys = keys.filter(key => !blacklist.includes(key));
+	usableKeys.sort();
+	const updated = {};
+	for (let i = 0; i < usableKeys.length; i++) {
+		updated[usableKeys[i]] = target[usableKeys[i]];
+	}
+	return updated;
+}
+
+export {alphabetizeKeys};
