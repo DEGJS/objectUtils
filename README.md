@@ -2,7 +2,7 @@
 A utility library for working with JavaScript objects.
 
 ## Install
-[![Build Status](https://travis-ci.org/DEGJS/objectUtils.svg?branch=master)](https://travis-ci.org/DEGJS/objectUtils)
+![Run Tests](https://github.com/DEGJS/objectUtils/workflows/Run%20Tests/badge.svg)
 
 objectUtils is an ES6 module. Consequently, you'll need an ES6 transpiler ([Babel](https://babeljs.io) is a nice one) as part of your Javascript workflow.
 

@@ -1,4 +1,3 @@
-import expect from 'expect';
 import {ensureArray} from './objectUtils';
 
 describe('ensureArray', () => {
